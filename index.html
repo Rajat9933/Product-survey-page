@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+<style>
+#header {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0 20;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+footer span {
+display: block;
+float: right;
+  padding-top: 40px;
+}
+footer {
+  background-color: #ffffff;
+  height: 70px;
+}
+footer ul {
+  list-style-type: none;
+  margin-right: 20px;
+  float: right;
+}
+footer ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+footer ul li a {
+color: black;
+font-size: 17px;
+text-transform: uppercase;
+}
+.smaller-image {
+  width: 100px;
+  height: 80px;
+}
+footer ul li :hover {
+  background-color: #02008a;
+  color: white;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+  width: 700px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav :hover {
+  background-color: #007a72;
+  color: #ffffff;
+}
+nav {
+  background-color: #ffffff;
+  height: 80px;
+  width; 100%;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin-right: -5px;
+  }
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+@media query (max-width: 600px) {
+  header {
+  flex-wrap: wrap;
+}
+
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #262626;
+  margin-top: 80px;
+  padding-top: 20px;
+}
+h2 {
+  font-family: cursive;
+
+}
+
+html {
+  background-color: #ffffff;
+  color: #262626;
+}
+#header-img {
+  margin-left: -182px;
+}
+#form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#email {
+  border-radius: 5px;
+  width: 500px;
+  height: 30px;
+}
+</style>
+
+ </head>
+   <body style="background-color: #c2f7be;">
+<header id="header">
+
+  <div class="logo">
+   <img id="header-img" src="https://media-exp1.licdn.com/dms/image/C510BAQECjWSsq_x1kA/company-logo_200_200/0?e=2159024400&v=beta&t=mbIIXEwz3-0Mr1S0JV82bcmZ3Zljud1KXEVBkXt0Jd0" alt="original trombones logo" class="smaller-image">
+</div>
+<nav id="nav-bar">
+<ul>
+  <li><a class="nav-link" href="#features">Features</a></li>
+  <li><a class="nav-link" href="#innovation">Innovation</a></li>
+  <li><a class="nav-link" href="#about-us">About us</a></li>
+</ul>
+  </nav>
+  </div>
+  </header>
+    <main>
+
+    <center>
+  <div>
+<div class="container">
+  <h1><strong>High performance electric scooter</strong></h1><br><br>
+  <section id="features">
+  <h2>Know more about our electric vehicles</h2>
+    <p>PURE EPluto 7G is India’s premium electric two wheeler de-signed to give you the most comfortable
+       ride experience that any scooter possibly can! With its multi-speed smart design, you are in total
+       control of the ride experience whether it’s daily errand in traffic or long thrill rides.</p>
+</section>
+<br>
+ </div>
+<div>
+  <section id="innovation">
+    <h2>Innovation at IIT Hyderabad</h2>
+    <p>Born out of innovation at IIT Hyderabad, PURE is committed to drive the future of e-mobility and
+        energy storage systems. We design and manufacture EVs and Lithium batteries.</p>
+      </section>
+    </div>
+    <br>
+    <div class="container">
+      <section id="about-us">
+        <h2>A Story behind</h2>
+        <p>PURENERGY acronym stands for Power Using Renewable Energy and true to its name ever since its genesis at IIT Hyderabad, the company has
+           focused on enabling transition to sustainable energy sources. Energy storage technology has been a key area of expertise for the company.
+           The firm has executed hybrid solar storage projects for many prestigious business groups, Universities, Hospitals, Residential Communities,
+           NGOs and Schools. The company management team brings significant experience from academia and energy industry.
+           The company made foray into manufacturing of electric two-wheeler under the brand “PURE EV” and high-performance Lithium batteries under the brand
+           “PURE Lithium”. The company has been funded by visionary from Pharma industry Shri V C Nannapaneni. The company has setup a dedicated 40,000 sqft
+           manufacturing unit and is geared up to become one of the leading EV startups of India in times to come! The company is focused on building products
+           that is beloved by the mass consumer and building a trustworthy brand name in EV and ESS business verticals.</p>
+</section>
+<div>
+    <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/gEj6q6YL3ew" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 50px; margin-bottom: 30px;"></iframe>
+</dev>
+<div>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id=email type="email" name="email" placeholder="Enter your email here"></input>
+  <input id="submit" type="submit"></input>
+ </form>
+  </div>
+</div>
+</main>
+</center>
+<footer>
+  <ul>
+     <li><a class="links" href="#features">Privacy</li>
+     <li><a class="links" href="#innovation">Term</li>
+     <li><a class="links" href="https://pureev.in/" target="_blank">Contact us</li>
+  </ul>
+  <span>Copyright 2021 PURE ENERGY</span>
+ </footer>
+   </body>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
